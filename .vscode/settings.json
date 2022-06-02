@@ -1,0 +1,17 @@
+{
+    "python.pythonPath": "/Users/gursi/opt/anaconda3/envs/ml/bin/python",
+    "cSpell.words": [
+        "argmax",
+        "dtype",
+        "gursi",
+        "keybinds",
+        "labelmap",
+        "mediapipe",
+        "paramters",
+        "ptime",
+        "pynput",
+        "torchvision",
+        "unsqueeze",
+        "yhat"
+    ]
+}
