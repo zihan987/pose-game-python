@@ -7,7 +7,7 @@ from helper import extract_coordinates
 # 创建一动作检测器相机
 # 创建一个摄像头
 My_Current_move = 'crouch'             #   初始化当前动作
-Capture = cv2.VideoCapture(f'/users/gursi/desktop/{My_Current_move}.mp4')  # 创建一个摄像头：摄像头的路径
+Capture = cv2.VideoCapture(f'/users/zihan/your_path/{your_path}.mp4')  # 创建一个摄像头：摄像头的路径
 #Capture = cv2.VideoCapture(0)          #   创建一个摄像头
 start_time = time.time()            #   初始化开始时间
 
@@ -94,7 +94,7 @@ except cv2.error :
 # 使用坐标保存张量，如果没有坐标，则保存空张量
 if all_coords.shape[0] > 0 : 
     # 保存数据集：数据集的路径
-    torch.save(all_coords, f'/users/gursi/desktop/Pose2Play/move_dataset/{My_Current_move}.pt')
+    torch.save(all_coords, f'/your_path/move_dataset/{My_Current_move}.pt')
 # 打印保存的数据集的大小
 print(all_coords.shape)
 
